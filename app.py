@@ -27,7 +27,7 @@ and hazards, and recommends the safest landing sites for lunar landers or rovers
 # -------------------------------------------------------
 # CONFIGURATION & CONSTANTS
 # -------------------------------------------------------
-WEIGHTS_PATH = "best-3.pt"  # Place your weights file in the same directory as this script
+WEIGHTS_PATH = "best.pt"  # Place your weights file in the same directory as this script
 
 # Define 5 sample images (Ensure these paths exist in your repo/local directory)
 SAMPLE_IMAGES = {
