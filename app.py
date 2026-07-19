@@ -103,6 +103,9 @@ sample_selection = None
 selected_img_path = None
 
 with upload_tab:
+    # Added information block with the requested data source URL
+    st.info("💡 **Need lunar images to test?** You can discover and download official high-resolution lunar maps from the [LROC Data Archive Explorer](https://data.im-ldi.com/mds?MDS_SEARCH=%7B%22datasets%22%3A%5B%22luna_lroc_fi%22%2C%22luna_lroc_pds_nac_edrcdr%22%2C%22luna_lroc_pds_wac_edrcdr%22%2C%22luna_lroc_pds_rdr%22%5D%2C%22query%22%3A%7B%7D%2C%22map%22%3A%7B%7D%7D). Download a JPEG or PNG snippet and drop it below!")
+    
     uploaded_file = st.file_uploader("Upload a Lunar Surface Image (PNG, JPG, JPEG)", type=["png", "jpg", "jpeg"])
 
 with sample_tab:
